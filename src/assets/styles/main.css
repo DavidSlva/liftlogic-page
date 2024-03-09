@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.body {
+  /* background: linear-gradient(
+    63deg,
+    rgba(115, 115, 115, 1) 0%,
+    rgba(18, 18, 18, 1) 15%,
+    rgba(42, 42, 42, 1) 74%,
+    rgba(115, 115, 115, 1) 91%
+  ) !important; */
+  background-image: url("http://localhost:3000/images/inicio.png") !important;
+  background-size: cover !important;
+}
+.sider {
+  border-top-right-radius: 10px !important;
+  /* border-bottom-right-radius: 100px !important; */
+}
+
+.card-android__hover:hover {
+  background: #a4c639 !important;
+  border: none !important;
+  transition: all ease-out 0.5s;
+  /* color: #fff !important; */
+}
+
+.card-ios__hover:hover {
+  background: #ebe8eb !important;
+  color: black !important;
+  border: none !important;
+  transition: all ease-out 0.5s;
+  /* color: #fff !important; */
+}
+
+.card-chatbots__hover:hover {
+  background: #fff !important;
+  color: black !important;
+  border: none !important;
+  transition: all ease-out 0.5s;
+  /* color: #fff !important; */
+}
+
+.card-cloud__hover:hover {
+  background: #7dbbe6 !important;
+  color: #fff !important;
+  border: none !important;
+  transition: all ease-out 0.5s;
+}
+
+.card-webapp__hover:hover {
+  background: #4285f4 !important; /* Un azul suave, específico de la paleta de Chrome */
+  color: #fff !important; /* Asegúrate de que el texto sea legible con el color de fondo */
+  border: none !important;
+  transition: all ease-out 0.5s;
+}
+
+.sider-item-whatsapp:hover {
+  background: #25d366 !important;
+  color: #fff !important;
+}
+
+.sider-item-instagram:hover {
+  background: #3f729b !important;
+  color: #fff !important;
+}
+
+.sider-item-twitter:hover {
+  background: #000 !important;
+  color: #fff !important;
+}
+.sider-elevated-text {
+  color: #000 !important;
+}
+.sider-elevated-text:hover {
+  /* color: #000 !important; */
+  color: #fff !important;
+  background: #404040 !important;
+}
+.footer {
+  border-top-right-radius: 10px !important;
+}
+
+.animate-fade-in-up {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fade-in-up 0.5s ease-out forwards;
+}
+.delay-100 {
+  animation-delay: 0.1s;
+}
+.delay-150 {
+  animation-delay: 0.15s;
+}
+.delay-200 {
+  animation-delay: 0.2s;
+}
+.delay-250 {
+  animation-delay: 0.25s;
+}
+@keyframes fade-in-up {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
