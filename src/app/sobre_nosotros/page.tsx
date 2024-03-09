@@ -1,8 +1,15 @@
 import React from "react";
 import { Card, Col, Row } from "antd";
 import Title from "antd/es/typography/Title";
+import { Metadata } from "next";
 // import { Title } from 'antd/es/typography';
-
+export const metadata: Metadata = {
+  title: "Sobre Nosotros - LIFT LOGIC",
+  description:
+    "Conoce más sobre Lift Logic y STIL, nuestra historia, compromiso, y cómo innovamos en soluciones tecnológicas para empresas de servicio.",
+  keywords:
+    "Lift Logic, STIL, innovación tecnológica, soluciones tecnológicas, historia, compromiso",
+};
 export default function Inicio() {
   return (
     <>

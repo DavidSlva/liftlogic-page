@@ -37,7 +37,7 @@ const defaultItems: MenuItemType[] = [
   {
     key: "inicio",
     icon: <HomeOutlined />,
-    label: <Link href="inicio">Inicio</Link>,
+    label: <Link href="/">Inicio</Link>,
   },
   {
     key: "sobre_nosotros",
@@ -69,7 +69,7 @@ const defaultItems: MenuItemType[] = [
   {
     key: "contactanos",
     icon: <MailOutlined />,
-    label: "Contáctanos",
+    label: <Link href="contactanos">Contáctanos</Link>,
   },
 ];
 const menuItems = (type?: ItemsKey) => {

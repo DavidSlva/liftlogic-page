@@ -13,8 +13,8 @@ type Props = {};
 const Profile = (props: Props) => {
   return (
     <>
-      <div className="flex flex-col space-y-2 ">
-        <Paragraph className="!m-0">
+      {/* <div className="flex flex-col space-y-2 "> */}
+      {/* <Paragraph className="!m-0">w
           <span className="text-white">David Silva</span>
         </Paragraph>
         <Paragraph className="!m-0 ">
@@ -25,7 +25,7 @@ const Profile = (props: Props) => {
             </span>
           </span>
         </Paragraph>
-      </div>
+      </div>*/}
       <UserOutlined className="!text-white text-3xl  font-bold" />
     </>
   );
